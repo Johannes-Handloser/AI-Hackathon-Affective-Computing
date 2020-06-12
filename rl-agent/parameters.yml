@@ -1,0 +1,7 @@
+- hyperparameters:
+     EPSILON: 1.0
+     EPSILON_MIN: 0.1
+     EPSILON_DECAY: 0.99
+     GAMMA: 1.0
+     LEARNING_RATE: 0.1
+     EPISODES: 50000

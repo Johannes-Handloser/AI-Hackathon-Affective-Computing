@@ -1,0 +1,111 @@
+.timeline {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap; // border: 1px solid orange;
+    position: relative;
+
+    min-height: 35%;
+}
+
+.timeline-svg {
+    width: 100%;
+    height: auto; // position: absolute;
+}
+
+@keyframes fadeInTop {
+    from {
+        transform: translate(-0.7em, -10.3em);
+    }
+    to {
+        transform: translate(-0.7em, 0.3em);
+    }
+}
+
+@keyframes fadeInRoad {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInBottom {
+    from {
+        transform: translate(-0.7em, 10.3em);
+    }
+    to {
+        transform: translate(-0.7em, 0.3em);
+    }
+}
+
+.timestop-top {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    transform: translate(-0.7em, 0.3em);
+    animation: fadeInTop ease-in-out 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.timestop-bottom {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    transform: translate(-0.7em, 0.3em);
+    animation: fadeInBottom ease-in-out 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.svg-stops {
+    stroke: #777;
+    fill: #777;
+    stroke-width: 3;
+}
+
+.svg-street {
+    stroke: #aaa;
+    stroke-width: 20;
+    opacity:0;
+    animation: fadeInRoad ease-in-out 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.svg-street-dash {
+    stroke: white;
+    stroke-width: 2;
+    stroke-dasharray: 10;
+    stroke-dashoffset: 5;
+    opacity:0;
+    animation: fadeInRoad ease-in-out 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+// .grow { transition: font-size .2s ease-in-out; }
+.grow {
+    font-size: 4em
+}
+
+.grow-svg {
+    stroke-width: 40
+}
+
+.starstopbutton {
+    margin-left:auto;
+    margin-right:auto;
+
+    width:10%;
+    height:auto;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}

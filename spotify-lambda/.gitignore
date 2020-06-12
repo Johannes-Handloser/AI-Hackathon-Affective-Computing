@@ -1,0 +1,15 @@
+serverless.env.yml
+.env
+
+src/**/*.d.ts
+src/**/*.js*
+
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Webpack directories
+.webpack
