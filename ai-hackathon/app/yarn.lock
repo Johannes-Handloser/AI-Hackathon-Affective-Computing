@@ -107,9 +107,9 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/flex-layout@2.0.0-beta.8":
-  version "2.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-2.0.0-beta.8.tgz#b9cf57865a93ca158fe56d850952423f248d103b"
+"@angular/flex-layout@^2.0.0-beta.8":
+  version "2.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-2.0.0-rc.1.tgz#96fa7f85b2c4bacf2784913a2d607e2ed23dc7f1"
 
 "@angular/forms@^4.0.0":
   version "4.3.3"
@@ -2379,8 +2379,8 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
 lodash@^4.0.0, lodash@^4.11.1, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0, lodash@~4.17.4:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
 
 longest@^1.0.1:
   version "1.0.1"
