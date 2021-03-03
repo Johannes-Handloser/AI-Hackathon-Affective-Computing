@@ -29,7 +29,7 @@
     "improved": "^1.8.1",
     "preact": "^8.4.2",
     "preact-compat": "^3.18.5",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "query-string": "^6.6.0",
     "react-youtube": "^7.9.0"
   },
