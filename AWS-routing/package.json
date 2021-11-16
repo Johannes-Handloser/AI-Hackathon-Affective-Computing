@@ -8,7 +8,7 @@
     "dotenv": "^8.0.0"
   },
   "devDependencies": {
-    "aws-sdk": "^2.468.0"
+    "aws-sdk": "^2.814.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
