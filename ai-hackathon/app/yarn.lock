@@ -101,15 +101,15 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/core@^4.0.0":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.3.3.tgz#8e6a76914661db407fa2d88dd2441c4c016ff625"
+"@angular/core@^11.0.5":
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-11.0.5.tgz#b8c448c3cd4f6dae7327cc1ba4ee2aa29c8dbc26"
   dependencies:
-    tslib "^1.7.1"
+    tslib "^2.0.0"
 
-"@angular/flex-layout@2.0.0-beta.8":
-  version "2.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-2.0.0-beta.8.tgz#b9cf57865a93ca158fe56d850952423f248d103b"
+"@angular/flex-layout@^2.0.0-beta.8":
+  version "2.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-2.0.0-rc.1.tgz#96fa7f85b2c4bacf2784913a2d607e2ed23dc7f1"
 
 "@angular/forms@^4.0.0":
   version "4.3.3"
@@ -4101,6 +4101,10 @@ tsickle@^0.21.0:
 tslib@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.7.1.tgz#bc8004164691923a79fe8378bbeb3da2017538ec"
+
+tslib@^2.0.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
 
 tty-browserify@0.0.0:
   version "0.0.0"
